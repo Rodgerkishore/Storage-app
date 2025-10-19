@@ -64,7 +64,7 @@ const Hero = () => {
         setFileName("No File Selected");
         setFile(null);
       } catch (error) {
-        console.error("Unable to upload image to Pinata:", error);
+        console.error("Unable to upload file to Pinata:", error);
         alert("Unable to upload files to Pinata");
       }
     }
