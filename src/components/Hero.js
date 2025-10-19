@@ -60,12 +60,12 @@ const Hero = () => {
 
         const ImgHash = `https://gateway.pinata.cloud/ipfs/${resFile.data.IpfsHash}`;
         await contract.add(account.address, ImgHash); // Wait for the contract transaction to complete
-        alert("Successfully Image Uploaded");
-        setFileName("No image selected");
+        alert("File Successfully Uploaded");
+        setFileName("No File Selected");
         setFile(null);
       } catch (error) {
         console.error("Unable to upload image to Pinata:", error);
-        alert("Unable to upload image to Pinata");
+        alert("Unable to upload files to Pinata");
       }
     }
   };
