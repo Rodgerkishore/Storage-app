@@ -27,7 +27,7 @@ const Navbar = () => {
               </div>
 
               <div className="md:flex z-10 hidden items-center justify-between border border-[#505050] px-2 py-1 bg-transparent space-x-2 rounded-[20px]">
-                <Link href="https://twitter.com/Sanjaysk2108" target="_blank">
+                <Link href="https://x.com/Kishore40572530?t=pS0WxhT86SvQ0hdIrTXonw&s=09" target="_blank">
                   <Image
                     src="/x.png"
                     width={24}
@@ -37,7 +37,7 @@ const Navbar = () => {
                   />
                 </Link>
 
-                <Link href="https://t.me/Sandy0209" target="_blank">
+                <Link href="https://t.me/Kishore_Raj_0209" target="_blank">
                   <Image
                     src="/tg.png"
                     width={24}
