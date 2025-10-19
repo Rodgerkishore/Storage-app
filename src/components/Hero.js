@@ -13,7 +13,7 @@ const Hero = () => {
   const [contract, setContract] = useState(null);
   const account = useAccount();
   const [file, setFile] = useState(null);
-  const [fileName, setFileName] = useState("No image selected");
+  const [fileName, setFileName] = useState("No File Selected");
   const [switchTab, setSwitchTab] = useState("upload");
 
   function handleSwitchTab(tab) {
