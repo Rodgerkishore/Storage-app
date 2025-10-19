@@ -65,7 +65,7 @@ const Hero = () => {
         setFile(null);
       } catch (error) {
         console.error("Unable to upload file to Pinata:", error);
-        alert("Unable to upload files to Pinata");
+        alert("Unable to upload files to Pinata, Please connect your wallet and try ");
       }
     }
   };
