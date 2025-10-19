@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center space-x-4">
               <div className="hidden md:flex items-center justify-between gap-3">
                 <Link
-                  href="https://web3-storge.vercel.app/"
+                  href="https://storage-web3.vercel.app/"
                   target="_blank"
                   className="cursor-pointer text-primary text-[16px] hover:text-primary/50"
                 >
